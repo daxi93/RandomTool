@@ -17,9 +17,10 @@ namespace RandomTool
 
         public static string next()
         {
-            StringBuilder sb = new StringBuilder();
-            sb.Append(0).Append(rd.Next(5)).Append(3).Append(randomAlphabet(1)).Append(randomAlphabetNum(28));
-            return sb.ToString();
+            //StringBuilder sb = new StringBuilder();
+            //sb.Append(0).Append(rd.Next(5)).Append(3).Append(randomAlphabet(1)).Append(randomAlphabetNum(28));
+            //return sb.ToString();
+            return randomAlphabetNum(32);
         }
 
         public static string randomNum(int lenght)
