@@ -20,7 +20,6 @@ namespace RandomTool
         private void btn_crt_Click(object sender, EventArgs e)
         {
             rd();
-            ;
         }
 
         private void rd()
