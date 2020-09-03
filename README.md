@@ -5,4 +5,4 @@ Random 32 Created Program by Winform.
 Develop with vs.2019
 
 ## Hotkey
-ctrl+alt+w
+ctrl+alt+A
