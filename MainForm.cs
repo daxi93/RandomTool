@@ -43,6 +43,7 @@ namespace RandomTool
 
         private void cmt2_Click(object sender, EventArgs e)
         {
+            Clipboard.SetText("");
             Environment.Exit(0);
         }
 
