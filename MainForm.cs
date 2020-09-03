@@ -49,7 +49,7 @@ namespace RandomTool
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-            HotKey.RegisterHotKey(Handle, 100, HotKey.KeyModifiers.Ctrl | HotKey.KeyModifiers.Alt, Keys.Q);
+            HotKey.RegisterHotKey(Handle, 100, HotKey.KeyModifiers.Ctrl | HotKey.KeyModifiers.Alt, Keys.A);
         }
 
         protected override void WndProc(ref Message m)
